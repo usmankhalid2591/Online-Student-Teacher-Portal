@@ -1,0 +1,30 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    color: #007bff !important;
+}
+
+.fa-power-off:hover{
+    color: #212529;
+}
+
+.jumbotron{
+    padding-bottom: 0px;
+}
+
+.col-4 button.btn{
+    color: #fff !important;
+    margin-top: 3.5em;
+    width: 100%;
+    transform: translate(50%, 50%);
+}
+.col-12 button.btn{
+    color: #fff !important;
+    transform: translate(50%, 50%);
+    float: right;
+    position: absolute;
+    right: 3em;
+}

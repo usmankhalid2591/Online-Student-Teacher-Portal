@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--    Title Logo-->
+    <link rel="icon" href="">
+    <!--    Title Of Page-->
+    <title>Admin Panel - Examination System</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/adminandstudent.css" rel="stylesheet">
+
+    <!--    Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-1">Admin Panel</h1>
+        <ul class="nav nav-tabs justify-content-end" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#students">Students</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#exam">Examination</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#result">Results</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#faculty">Faculty</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tasks">Tasks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#notes">Notes</a>
+            </li>
+            <div class="btn mt-1" data-toggle="dropdown">
+                <i class="fas fa-power-off"></i>
+            </div>
+            <div class="dropdown-menu">
+                <a href="javascript(void);" class="dropdown-item">Log out</a>
+            </div>
+        </ul>
+    </div>
+
+    <div class="container mb-5">
+
+
+        <div class="tab-content">
+<!--           Students-->
+            <div id="students" class="tab-pane active"><br>
+                <div class="container">
+                    <h2>Students</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Registration</th>
+                                <th>Subjects</th>
+                                <th>DOB</th>
+                                <th>CNIC</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Aisha</td>
+                                <td>UW-16-CS-BS-087</td>
+                                <td>Graphics</td>
+                                <td>1998</td>
+                                <td>xxxx</td>
+                            </tr>
+                            <tr>
+                                <td>Aisha</td>
+                                <td>UW-16-CS-BS-087</td>
+                                <td>Web</td>
+                                <td>1998</td>
+                                <td>xxxx</td>
+                            </tr>
+                            <tr>
+                                <td>Aisha</td>
+                                <td>UW-16-CS-BS-087</td>
+                                <td>Automata</td>
+                                <td>1998</td>
+                                <td>xxxx</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+<!--Examination-->
+            <div id="exam" class="tab-pane fade"><br>
+                <div class="container">
+                    <h2>Examination</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Subjects</th>
+                                <th>Exam Papers</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Web Engineering</td>
+                                <td><a href="#">View Papers</a></td>
+                            </tr>
+                            <tr>
+                                <td>Theory of Automata</td>
+                                <td><a href="#">View Papers</a></td>
+                            </tr>
+                            <tr>
+                                <td>Computer Graphics</td>
+                                <td><a href="#">View Papers</a></td>
+                            </tr>
+                            <tr>
+                                <td>Artificial Intelligence</td>
+                                <td><a href="#">View Papers</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+<!--Results-->
+            <div id="result" class="tab-pane fade"><br>
+                <div class="container">
+                    <h2>Results</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Names</th>
+                                <th>Subjects</th>
+                                <th>Marks</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Aisha</td>
+                                <td>Graphics</td>
+                                <td>21/30</td>
+                            </tr>
+                            <tr>
+                                <td>Kainat</td>
+                                <td>Automata</td>
+                                <td>15/30</td>
+                            </tr>
+                            <tr>
+                                <td>Taiba</td>
+                                <td>Web</td>
+                                <td>20/30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+<!--Faculty-->
+            <div id="faculty" class="tab-pane fade"><br>
+                <div class="container">
+                    <h2>Faculty</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Teachers</th>
+                                <th>ID's</th>
+                                <th>Subjects</th>
+                                <th>Qualification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ma'am Hira</td>
+                                <td>124</td>
+                                <td>Artificial Intelligence</td>
+                                <td>BSCS Engineering</td>
+                            </tr>
+                            <tr>
+                                <td>Ma'am Sadia</td>
+                                <td>113</td>
+                                <td>Web Engineering</td>
+                                <td>BSCS Engineering</td>
+                            </tr>
+                            <tr>
+                                <td>Ma'am Rida</td>
+                                <td>156</td>
+                                <td>Databases</td>
+                                <td>MSCS Engineering</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+<!--            -->
+            <div id="tasks" class="tab-pane fade"><br>
+                <h3>Tasks</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+<!--            -->
+            <div id="notes" class="tab-pane fade"><br>
+                <h3>Notes</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bsjs.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

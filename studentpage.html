@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--    Title Logo-->
+    <link rel="icon" href="">
+    <!--    Title Of Page-->
+    <title>Student's Page - Examination System</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/adminandstudent.css" rel="stylesheet">
+
+    <!--    Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-1">Student Panel</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-2 mt-4">
+                <ul class="nav flex-column" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#grade">Grade Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#feed">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#complains">Complains</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#datesheet">Date Sheet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#help">Help</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-9">
+                <div class="tab-content">
+                    <!--           Profile-->
+                    <div id="profile" class="tab-pane active"><br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4 text-center">
+                                    <img src="img/pps.png" width="100" height="100" alt="">
+                                </div>
+                                <div class="col-8">
+                                    <p><strong>Name:</strong> Aisha Rashid</p>
+                                    <p><strong>Registration No:</strong> UW-16-CS-BS-087</p>
+                                    <p><strong>Date of Birth:</strong> 7 September 199X</p>
+                                    <p><strong>Subjects:</strong> <br>Graphics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Grade Book-->
+                    <div id="grade" class="tab-pane fade"><br>
+                        <div class="container">
+                            <h2>Grade Book</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Subjects</th>
+                                        <th>Marks</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Graphics</td>
+                                        <td>21/30</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!--Feedback-->
+                    <div id="feed" class="tab-pane fade"><br>
+                        <div class="container">
+                            <h2>Feedback</h2>
+                            <h6>1. Faculty Performance</h6>
+                            <form>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio" checked> Good</label>
+                                </div>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio"> Bad</label>
+                                </div>
+                                <div class="radio disabled">
+                                    <label><input type="radio" name="optradio" disabled> Moderate</label>
+                                </div>
+                                <div class="radio disabled">
+                                    <label><input type="radio" name="optradio" disabled> Very Good</label>
+                                </div>
+                            </form>
+                            <h6>2. System Performance</h6>
+                            <form>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio" checked> Good</label>
+                                </div>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio"> Very Good</label>
+                                </div>
+                                <div class="radio disabled">
+                                    <label><input type="radio" name="optradio" disabled> Bad</label>
+                                </div>
+                                <div class="radio disabled">
+                                    <label><input type="radio" name="optradio" disabled> Moderate</label>
+                                </div>
+                            </form>
+                            <h6>3. How was your experience with system . </h6>
+                            <form>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio" checked> Fine</label>
+                                </div>
+                                <div class="radio">
+                                    <label><input type="radio" name="optradio"> Good</label>
+                                </div>
+                                <div class="radio disabled">
+                                    <label><input type="radio" name="optradio" disabled> Fair</label>
+                                </div>
+                                <div class="radio disabled">
+                                    <label><input type="radio" name="optradio" disabled> Bad</label>
+                                </div>
+                            </form>
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="form-group">
+                                        <label for="comment">Comments:</label>
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-center">
+                                    <button class="btn btn-secondary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Complains-->
+                    <div id="complains" class="tab-pane fade"><br>
+                        <div class="container">
+                            <h2>Complains</h2>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="comment">Comments:</label>
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn-secondary btn">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--            Date Sheet-->
+                    <div id="datesheet" class="tab-pane fade"><br>
+                        <div class="container">
+                            <h2>Date Sheet</h2>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Subjects</th>
+                                        <th>Date-of-Exam</th>
+                                        <th>Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Web Engineering</td>
+                                        <td>01-05-2019</td>
+                                        <td>12:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Computer Graphics</td>
+                                        <td>02-05-2019</td>
+                                        <td>12:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Theory of Automata</td>
+                                        <td>03-05-2019</td>
+                                        <td>12:00pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!--            Help-->
+                    <div id="help" class="tab-pane fade"><br>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="btn" data-toggle="dropdown">
+                    <i class="fas fa-power-off"></i>
+                </div>
+                <div class="dropdown-menu">
+                    <a href="javascript(void);" class="dropdown-item">Log out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bsjs.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
